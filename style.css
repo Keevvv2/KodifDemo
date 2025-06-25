@@ -1,12 +1,12 @@
 body {
   font-family: 'Georgia', serif;
   margin: 0;
-  background-color: #ffffff;
-  color: #5E7E6C;
+  background-color: #858E78;
+  color: #ffffff;
   line-height: 1.6;
 }
 header.hero {
-  background-color: #ffffff;
+  background-color: #858E78;
   border-bottom: 1px solid #D5DDE0;
   text-align: center;
   padding: 1rem 0 0.5rem;
@@ -24,7 +24,7 @@ header.hero {
 }
 nav a {
   margin: 0 1rem;
-  color: #5E7E6C;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -34,10 +34,10 @@ nav a:hover {
 .hero-text h1 {
   margin: 0.5rem 0 0;
   font-size: 2.5rem;
-  color: #C37763;
+  color: #E9E1D3;
 }
 .hero-text p {
-  color: #AF8E95;
+  color: #DDEBD2;
   font-size: 1.2rem;
 }
 
@@ -73,7 +73,7 @@ main {
   margin: auto;
 }
 h2 {
-  color: #5E7E6C;
+  color: #ffffff;
   margin-top: 0;
 }
 footer {
