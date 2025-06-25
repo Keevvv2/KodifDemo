@@ -125,3 +125,17 @@ footer {
   max-width: 350px;
   height: auto;
 }
+
+body {
+  background-color: #D9CDE1; /* Lavender Mist */
+  padding-top: 160px; /* accommodate fixed header */
+}
+header.hero {
+  background-color: #858E78;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
