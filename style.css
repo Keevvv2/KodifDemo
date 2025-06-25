@@ -1,0 +1,44 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #DDEBD2;
+  color: #5E7E6C;
+}
+header {
+  background-color: #88B494;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 2rem;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.product {
+  background-color: #E9E1D3;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 200px;
+}
+footer {
+  background-color: #AF8E95;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
