@@ -49,6 +49,19 @@
 <footer>
   <p>&copy; 2025 Sona Vitalis</p>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const items = document.querySelectorAll('.accordion .faq-item button');
+  items.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const parent = btn.parentElement;
+      parent.classList.toggle('active');
+    });
+  });
+});
+</script>
+
 <script src="https://autopilot.kodif.io/chat/v1/application/04301aa0-bd60-4478-ac5a-1f36f8b6d79a/widget-script"></script>
 </body>
 </html>
