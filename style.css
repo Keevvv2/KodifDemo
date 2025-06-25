@@ -139,3 +139,13 @@ header.hero {
   padding-bottom: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.accordion .faq-item button {
+  padding-top: 1rem;
+}
+.accordion .faq-item div {
+  padding-top: 0.5rem;
+}
+.faq-section {
+  margin-top: 2rem;
+}
