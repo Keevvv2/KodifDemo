@@ -4,14 +4,14 @@ body {
   background-color: #DDEBD2;
   color: #5E7E6C;
 }
-header {
-  background-color: #88B494;
+header.hero {
+  background-color: #5E7E6C;
   color: white;
-  padding: 2rem;
   text-align: center;
+  padding: 2.5rem 1rem;
 }
 .logo {
-  width: 100px;
+  width: 90px;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -24,16 +24,20 @@ nav a {
 main {
   padding: 2rem;
 }
-.product-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+h2 {
+  color: #C37763;
 }
-.product {
-  background-color: #E9E1D3;
-  padding: 1rem;
-  border-radius: 8px;
-  flex: 1 1 200px;
+.intro-section, .values-section, .mission-section {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.banner-image {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 footer {
   background-color: #AF8E95;
